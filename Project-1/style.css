@@ -1,0 +1,91 @@
+body,
+html {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+}
+
+.container,
+.header-inner,
+.notable-mentions,
+.three,
+.last-one,
+.last-two,
+.last-three {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-image{
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-image img{
+  width: 100%;
+}
+
+/* header */
+
+.name,
+.ninja {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.horiz-line {
+  background: #79a;
+  border: 0;
+  height: 3px;
+  margin-bottom: 0;
+}
+
+/* fonts */
+
+.name,
+.ninja {
+  text-align: right;
+}
+
+.name,
+.featured-work,
+.info {
+  font-size: 1.5em;
+}
+
+.ninja,
+.link {
+  font-size: 0.55em;
+}
+
+.featured-work {
+  color: #79a;
+  margin-left: 1%;
+}
+
+.name,
+.ninja,
+.info,
+.link {
+  color: #344;
+}
+
+.info,
+.link {
+  text-align: center;
+}
+
+.name,
+.link {
+  font-weight: bold;;
+}
+
+.ninja,
+.featured-work,
+.info,
+.link {
+  font-weight: bold;
+}
